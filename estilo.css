@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+html{
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+
+div.Cabecera{
+    margin-top: 0;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    font-size: 150%;
+    border-left: #FF6162 10px solid;
+}
+
+div.Cabecera img{
+    margin: 0 20px;
+    float: left;
+}
+
+div.Cabecera p{
+    font-size: 180%;
+}
+header ul{
+    background-color: #FF6162;
+    font-size: 250%;
+    margin: 0 0;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    padding: 20px 0;
+}
+
+header li{
+    display: inline;
+    margin: 0px 150px;
+    padding: 0px 0.5em;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+article.uno{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section.body div.Info h2.dos{
+    padding-top: 10px;
+    border-left: #FF6162 10px double;
+    border-top: #FF6162 10px double;
+}
+
+article.uno div.Info{
+    width: 550px;
+    margin: 50px;
+}
+
+@media (orientation: portrait) {
+    article.uno div.Info{
+        margin: 20px;
+    }
+
+    header ul{
+        background-color: #FF6162;
+        font-size: 250%;
+        margin: 0 0;
+        text-align: center;
+        font-family: 'Cabin', sans-serif;
+    }
+
+    header li{
+        display: inline;
+        margin: 0px 30px;
+        padding: 0px 0.5em;
+        font-size: 80%;
+    }
+}
+
+article.uno h2{
+    font-weight: bold;
+    color: #FF6162;
+    vertical-align: text-top;
+    text-align: center;
+}
+
+article.uno p{
+    text-align: justify;
+    font-size: 120%;
+}
+
+strong{
+    color: #FF6162;
+}
+
+footer{
+    text-align: center;
+}
+
+footer h1{
+    color: #FF6162;
+    font-size: 300%;
+}
+
+section.opinion h1{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 250%;
+}
+
+section.opinion h3{
+    font-size: 150%;
+}
+
+section.opinion article.uno div.Info p{
+    margin-bottom: 0;
+}
+
+footer div.mapa{
+    margin-bottom: 150px;
+}
+
+section.fin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer article.formulario{
+    text-align: left;
+    padding-right: 150px;
+}
+
+footer article.video{
+    text-align: left;
+}
+
+footer article.video div.video{
+    text-align: left;
+}
+
+footer section.fin div.pie{
+    width: 550px;
+    margin: 50px;
+}
+
+@media (orientation: portrait) {
+    footer section.fin div.pie{
+        margin: 50px;
+    }
+
+    footer section.fin article.formulario form{
+        text-align: left;
+        margin-left: 20%;
+    }
+
+    footer section.fin article{
+        text-align: center;
+
+    }
+
+    footer section.fin article.video object{
+        text-align: left;
+        margin-right: 25%;
+    }
+}
+
+div.español-curso h2{
+    font-weight: bold;
+    color: #FF6162;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 50px;
+}
+
+div.español-curso p{
+    text-align: justify;
+    font-size: 120%;
+    margin: 0 200px;
+}
+
+article.uno div.Info2{
+    width: 550px;
+    margin: 50px;
+}
+
+div.Titulos {
+    width: 400px;
+    margin: 50px;
+}
+
+div.Particulares {
+    width: 400px;
+    margin: 50px;
+}
+
+details.Titulos p.Titulos{
+    margin-left: 80px;
+}
+
+details.Titulos p.Particulares{
+    margin-right: 250px;
+}
+
+article.uno summary{
+    font-weight: bold;
+    color: #FF6162;
+    vertical-align: text-top;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 150px;
+}
+
+article.uno div.Titulos h2{
+    color: black;
+    font-size: 130%;
+    text-align: left;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+article.uno div.Titulos h2 img{
+    float: left;
+}
+
+article.uno div.Titulos li{
+    font-size: 120%;
+    text-align: left;
+}
+
+article.uno div.Particulares h2{
+    color: black;
+    font-size: 130%;
+    text-align: left;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+article.uno div.Particulares h2 img{
+    float: left;
+}
+
+article.uno div.Particulares li{
+    font-size: 120%;
+    text-align: left;
+}
+
+@media screen and (max-width: 700px) {
+    div.español-curso p.curso{
+        line-height: 150%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (orientation: landscape){
+    div.español-curso p.curso{
+        margin: 0 35%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    div.Titulos {
+        width: 250px;
+        margin: 50px;
+    }
+
+    div.Particulares {
+        width: 250px;
+        margin: 50px;
+    }
+}
+
+section h1.ingles{
+    text-align: center;
+    color: #FF6162;
+    font-size: 300%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+section.ingles article.uno div{
+    width: 550px;
+    margin: 50px;
+}
+
+section.ingles article.uno summary{
+    font-size: 200%;
+}
+
+section.final{
+    background-color: rgb(218, 51, 51);
+    text-align: left;
+}
+
+section.final article.uno div{
+    width: 450px;
+    margin: 50px
+}
+
+footer section.final article.uno div.Info h2{
+    color: white;
+}
+
+footer section.final article.uno div.Info li{
+    list-style: none;
+    font-size: 120%;
+}
+
+footer section.final article.uno div.Info li img{
+    margin-right: 10px;
+}
+
+footer section.final article.uno div.Info{
+    color: white;
+    line-height: 200%
+}
